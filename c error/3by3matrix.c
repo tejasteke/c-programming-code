@@ -1,5 +1,6 @@
 #include<stdio.h>
 int main()
+// erfeffefer
 {
 int a11,a12,a13,a21,a22,a23,a31,a32,a33,determinant_ofa11,determinant_ofa12,determinant_ofa13,determinant_ofwholebracket;
 printf("enter any 9 number");
