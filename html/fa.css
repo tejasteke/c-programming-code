@@ -1,0 +1,306 @@
+<!doctype>
+<html>
+<head>
+<title>diffent uses of tags </title>
+<style>
+p {color  :olivedrab;          }
+
+h1{         color:darkslateblue; }
+table{ color:olivedrab;           }
+
+
+body{    background -color:red; }
+
+
+
+
+
+
+button {color:darkred;         }
+</style>
+
+
+
+
+
+
+
+</head>
+<h1  style="color: green;   "> break tag . we can use heading tags and paragraph tags for an extra purpose ex:as a break tag </h1>
+
+<P style ="COLOR: ORANGE;"> if you won't to add any statement output one above other then you can use break tag or heading tag . in break tag you can arrange this but in it  there is no distance between two statement  output ex:you can see below between img and video. if you use heading tag instead of break tag then there will be some distace between them ex:as you seen inbetween video and name. (heading tag and paragraph tag both work same in arranging statement output one above other ex:as you seen in between village name and password.)  </p> 
+
+<H1> IF you use more break tag then distance between two statement output also increces. i get this later so i think break tag is a good option insted of heading and paragraph tag    </H1>
+
+ <h2>  that's why break tag is a better option</h2>    
+
+<br><br>
+
+<p> if we use same width in img and video then it will be seen as follow.in this case we use break tag if we use heading tag then there should be some distance between img and video statement output                                </p>
+
+<img src="C:\Users\user\OneDrive\Desktop\video and image/nature.jpg"     height="600" width="600">
+
+<br>
+
+<video controls  width="  600">
+<source src= "C:\Users\user\OneDrive\Desktop\video and image/nature beauty.mp4">
+</video>
+
+
+<h2>if you won't side to side distance between two statement output   then we can use video open and close tag between them .you have to use only video open and video close tag.if you  use video controls open and video close tag as we use in uploading video then you can see black screen between this two statement output because we did not add source of video in it .                               
+ </h2>
+
+
+<h1> SEE WHAT HAPPEN    IF WE USE VIDEO CONTROLS OPEN AND VIDEO CLOSE TAG TO MAKE SIDE TO SIDE DISTANCE BETWEEN TWO STATEMENT OUTPUT             </h1>
+
+<IMG SRC=" C:\Users\user\OneDrive\Desktop\video and image/NATURE GOOD.JPG  "        HEIGHT="300   "    WIDTH=" 300">
+<VIDEO CONTROLS> </VIDEO>
+
+
+
+<IMG SRC=" C:\Users\user\OneDrive\Desktop\video and image/BLUE.JPG      "    HEIGHT =" 300     "  WIDTH=" 300   ">
+
+ <H1>SEE WHAT HAPPEN       IF WE USE VIDEO OPEN AND VIDEO CLOSE TAG TO MAKE SIDE TO SIDE DISTANCE BETWEEN   TWO STATEMENT OUTPUT                   </H1>       
+ ADMISSION FORM NO :<input>
+ <VIDEO > </VIDEO>
+
+NAME:<input type>
+
+
+<p> if we put 1)inpute,2)inpute type,3)inpute type ="FILE" ALL THREE GIVE SAME OUTPUT. WE CAN WRITE ALPHABHET ,NUMBER etc in it. for encryption we can write inpute type="password". so i think it's good to use inpute type="   " because we can choose enecrypted( PASSWORD):inpute type="password" and normal data(   FILE) ex:inpute type =" file" in it   .</P>
+<h3> if we did't leave space between chatacteristic and quatation tag    then see what happen ex:as you seen in surname                                                     </h3>
+surname:<input type="file" >
+
+<video></video>
+
+village name:<input type="  file">
+
+<p></p>
+
+ password:<input type= "password"  placeholder=" enter your password    ">
+
+ <h1> heading tag and data tag both work same but there is a little difference. if we use heading tag th then output appear darker .if we use data tag td then output appear faint </h1>
+
+
+<P style=" color:hotpink;" >in first row we can see that if we use only  heading  open tag and data  open tag in between  heading open and close tag / data open and close tag .then it work we get our output without using close tag of the statement like td and th as we seen in first row.</p>
+
+
+
+
+
+
+
+
+<table border="5">
+
+
+
+
+<th > 48<td>87 <td>home<th>nice        </th>
+
+
+
+
+
+
+
+ok
+
+<tr>
+<th>math <th> marathi<td> english<th> physics <th>biology <th>  48 </th>  <td> geography    </td>	
+</tr>
+<tr>
+<td>50<td>82<td>55f<td>58<td>56 <th>39 </td>	
+</tr>
+<tr>
+<td>67 <td>43 <td>84 <td>67<td> 92                         </td>	
+</tr>
+<tr>
+<td>37<td>68<td>43<td>28<td>96       </td>	
+
+
+</tr>
+
+
+
+
+
+
+</table>
+
+<BR>
+<table border=" 5">
+
+	
+<tr>
+<th> MARATHI <th>ENGLISH<th> HINDI<th> FRANCE <th> GERMANY        </th>	
+
+</tr>
+
+<tr>
+<td> 39 <td> 42<td> 87<td> 93 <td> 78                                           </td>	
+
+</tr>
+
+<tr> 
+<td>160<td>360 <td>268 <td>540<td>186                                   </tr>
+</tr>
+
+
+
+
+<tr>                                 
+<td>                                249    <td>186<td>738<td>549     <td>  186</td>
+
+
+
+
+
+
+
+
+
+</tr>
+</table>
+</form>
+<h1>   AGE </h1>
+
+  
+14:<input type ="radio"  name=" gender">
+15: <input type ="radio"   name =" gender" >
+  
+16:<input type ="radio"  name=" gender">
+ 17:<input type ="radio"   name =" gender" >
+  
+18:<input type ="radio"  name=" gender">
+19: <input type ="radio"   name =" gender" >
+  
+20:<input type ="radio"  name=" gender">
+21: <input type ="radio"   name =" gender" >
+  
+22:<input type ="radio"  name=" gender">
+
+
+
+
+
+
+  
+
+
+<form>
+
+
+male:<input type ="radio" name ="gender" >
+ 
+female:<input type ="radio" name="gender"    >
+ 
+</form>
+
+
+<form> 
+
+
+ 
+graduate:<input type ="radio" name ="NAME" >
+ 
+undergraduate:<input type ="radio" name="NAME"  >
+ 
+</form>
+indian:<input type ="radio" name ="hi" >
+ 
+foreign:<input type ="radio" name="hi"    >
+
+<br><br>
+ 
+</form>
+male:<input type ="radio" name ="gender" >
+ 
+female:<input type ="radio" name="gender"    >
+ 
+</form>
+male:<input type ="radio" name ="gender" >
+ 
+female:<input type ="radio" name="gender"    >
+ 
+</form>
+male:<input type ="radio" name ="gender" >
+ 
+female:<input type ="radio" name="gender"    >
+ 
+</form>
+male:<input type ="radio" name ="gender" >
+ 
+female:<input type ="radio" name="gender"    >
+ 
+</form>
+male:<input type ="radio" name ="gender" >
+ 
+female:<input type ="radio" name="gender"    >
+ 
+</form>
+male:<input type ="radio" name ="gender">
+ 
+female:<input type ="radio" name="gender">
+ 
+</form>
+male:<input type ="radio" name ="gender">
+ 
+female:<input type ="radio" name="gender">
+ 
+</form>
+male:<input type ="radio" name ="gender" >
+ 
+female:<input type ="radio" name="gender"    >
+ 
+</form>
+male:<input type ="radio" name ="gender" >
+ 
+female:<input type ="radio" name="gender"    >
+ 
+</form>
+male:<input type ="radio" name ="gender" >
+ 
+female:<input type ="radio" name="gender"    >
+ 
+</form>
+male:<input type ="radio" name ="gender" >
+ 
+female:<input type ="radio" name="gender"    >
+ 
+</form>
+male:<input type ="radio" name ="gender" >
+ 
+female:<input type ="radio" name="gender"    >
+ 
+</form>
+
+
+
+<form>
+
+
+
+
+
+k:<input type ="radio"   gender="name" >
+ij:<input type ="radio"  gender=" name">
+ 
+
+
+
+
+
+</form>
+
+
+
+
+
+<button type="submit" >     SUBMIT FORM</button>      
+
+
+
+
+
+</<html>
